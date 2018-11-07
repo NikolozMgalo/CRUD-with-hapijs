@@ -1,0 +1,17 @@
+{
+  "name": "cars-restful-api",
+  "version": "1.0.0",
+  "description": "Creating RESTful API with Hapijs ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Nikoloz",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^17.7.0",
+    "mongoose": "^5.3.10",
+    "nodemon": "^1.18.6"
+  }
+}
