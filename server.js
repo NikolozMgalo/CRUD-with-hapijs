@@ -1,6 +1,6 @@
 const Hapi 			= require('hapi');
 const mongoose 		= require('mongoose');
-const mongoDB 		= 'mongodb://user:user123@ds253203.mlab.com:53203/database-2'
+const mongoDB 		= 'mongodb://<user>:user123@<password>.mlab.com:<>/<databasename>'
 
 mongoose.Promise 	= global.Promise;
 
