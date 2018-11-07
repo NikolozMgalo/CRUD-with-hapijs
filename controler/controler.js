@@ -1,6 +1,6 @@
 const Car = require('../model/car.model.js');
 const CarId = ('mongodb').ObjectID;
-const mongoDB = 'mongodb://user:user123@ds253203.mlab.com:53203/database-2';
+const mongoDB = 'mongodb://<user>:<password>@ds253203.mlab.com:<>/<database-name';
 
 module.exports = 
 {
