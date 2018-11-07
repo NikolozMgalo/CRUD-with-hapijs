@@ -1,6 +1,7 @@
 const CarControllers = require('../controler/controler.js');
 
-module.exports =[
+module.exports =
+	[
 {
 	method: 'GET', 
 	path: '/cars',
