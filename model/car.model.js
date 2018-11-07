@@ -13,4 +13,4 @@ const CarSchema = new Schema ({
 	mileage: Number,
 })
 
-module.exports = mongoose.model("Car", CarSchema);
+module.exports = mongoose.model("Car", CarSchema)
